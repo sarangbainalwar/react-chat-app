@@ -10,7 +10,7 @@ if(!localStorage.getItem('username')) return <LoginForm />
     return (
         <ChatEngine 
           height="100vh"
-          projectID="a6345856-f990-4680-8ba4-3d6e9b060c84"
+          projectID="2b07c3b2-6458-47cc-9227-c04513868e60"
           userName={localStorage.getItem('username')}
           userSecret={localStorage.getItem('password')}  
           renderChatFeed={(chatAppProps) => <ChatFeed {... chatAppProps } />}
